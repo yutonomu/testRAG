@@ -1,0 +1,33 @@
+# Git管理から除外するファイル
+
+# 環境変数ファイル（APIキーが含まれるため）
+.env
+
+# Python仮想環境
+rag_env/
+venv/
+env/
+
+# Pythonキャッシュファイル
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# 一時ファイル
+temp.pdf
+*.tmp
+*.log
+
+# IDEファイル
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS生成ファイル
+.DS_Store
+Thumbs.db
+
+# Streamlitキャッシュ
+.streamlit/
